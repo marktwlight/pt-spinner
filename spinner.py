@@ -5,6 +5,8 @@ from nltk.downloader import download
 import nltk
 import main
 
+# 下载葡萄牙语的语言包
+# download('own')
 
 original_text_pt = 'O governo federal estuda um programa permanente de renovação de frota de caminhões e ônibus, afirmou nesta quinta-feira (8) o vice-presidente da República e ministro do Desenvolvimento, Indústria, Comércio e Serviços, Geraldo Alckmin.Ele participou de evento transmitido pela internet da Associação Nacional dos Fabricantes de Veículos Automotores (Anfavea).Segundo Alckmin, o objetivo desse programa em estudo seria reduzir custo do frete, no caso dos caminhões, e, também, estimular a segurança ao ter uma frota "mais nova".O vice-presidente lembrou que um programa de renovação de frota, teve validade durante 2023. O objetivo foi retirar de circulação veículos pesados com mais de 20 anos de circulação.Com benefícios limitados, o programa disponibilizou R$ 1 bilhão em créditos tributários em 2023 para as montadoras. Foram R$ 700 milhões para caminhões e R$ 300 milhões para ônibus. Não foi divulgado um balanço final sobre o uso dos recursos.Para os compradores, pessoas físicas ou jurídicas, o desconto variou de R$ 33,6 mil a R$ 99,4 mil por veículo – o abatimento foi maior em modelos mais caros.O programa incluiu caminhões leves, semileves, médios, semipesados e pesados, além de ônibus urbanos e rodoviários."Deu um incentivo importante. Baseado em critério social, carros até R$ 120 mil, de eficiência energética, ambiental, e na densidade industrial. Queremos que fabrique aqui no Brasil, tirando de circulação caminhões e ônibus com mais de 20 anos de circulação", acrescentou Alckmin.'
 def get_primary_synonym(word):
